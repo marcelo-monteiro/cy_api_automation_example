@@ -1,4 +1,4 @@
-# Automated Tests Suite
+# Automated API Tests Suite
 These tests suit runs only in local environment.
 All depencies must be install locally:
 
