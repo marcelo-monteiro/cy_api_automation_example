@@ -10,7 +10,7 @@ Nodejs version required for running tests: >=16.10.0
 
 On this project the reporter used is Allure. To install it execute the following command:
 ```sh
-npm i -g allure-commandline
+yarn global add allure-commandline
 ```
 
 
