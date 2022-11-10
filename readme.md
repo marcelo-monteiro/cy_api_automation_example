@@ -1,6 +1,10 @@
 # Automated Tests Suite
 These tests suit runs only in local environment.
-All depencies must be install locally (yarn install)
+All depencies must be install locally:
+
+```sh
+yarn install
+```
 
 Nodejs version required for running tests: >=16.10.0
 
