@@ -1,6 +1,6 @@
 # Automated API Tests Suite
 These tests suit runs only in local environment.
-All depencies must be install locally:
+All depencies must be installed locally:
 
 ```sh
 yarn install
