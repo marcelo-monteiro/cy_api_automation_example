@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@cypress/schema-tools": "^4.7.9",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "ajv": "^8.11.0",
+    "cypress": "11.0.0",
+    "cypress-plugin-api": "^2.3.1",
+    "yamljs": "^0.3.0"
+  },
+  "scripts": {
+    "open": "npx cypress open",
+    "tests:report": "npx cypress run --env allure=true --config video=false"
+  }
+}

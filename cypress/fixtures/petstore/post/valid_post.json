@@ -1,0 +1,83 @@
+{
+   "payload" : {
+      "category" : {
+         "id" : 0,
+         "name" : "string"
+      },
+      "id" : 0,
+      "name" : "doggie",
+      "photoUrls" : [
+         "string"
+      ],
+      "status" : "available",
+      "tags" : [
+         {
+            "id" : 0,
+            "name" : "string"
+         }
+      ]
+   },
+   "schema" : {
+      "definitions" : {},
+      "properties" : {
+         "category" : {
+            "properties" : {
+               "id" : {
+                  "type" : "integer"
+               },
+               "name" : {
+                  "type" : "string"
+               }
+            },
+            "required" : [
+               "id",
+               "name"
+            ],
+            "type" : "object"
+         },
+         "id" : {
+            "type" : "integer"
+         },
+         "name" : {
+            "type" : "string"
+         },
+         "photoUrls" : {
+            "items" : {
+               "type" : "string"
+            },
+            "type" : "array"
+         },
+         "status" : {
+            "type" : "string"
+         },
+         "tags" : {
+            "items" : {
+               "properties" : {
+                  "id" : {
+                     "type" : "integer"
+                  },
+                  "name" : {
+                     "type" : "string"
+                  }
+               },
+               "required" : [
+                  "id",
+                  "name"
+               ],
+               "type" : "object"
+            },
+            "type" : "array"
+         }
+      },
+      "required" : [
+         "id",
+         "category",
+         "name",
+         "photoUrls",
+         "tags",
+         "status"
+      ],
+      "title" : "Root",
+      "type" : "object"
+   }
+}
