@@ -66,7 +66,7 @@ The tests were scripted using Cypress native fixtures solution handling test dat
 #### Opening the report
 
 After performing the API tests, the reports are generated using Allure (depencies listed on package.json), but it requires JDK in order to open the report correctly.
-After performing the front-end tests, executing the commands bellow, will open the report in your browser:
+Executing the command bellow, will open the report in your browser:
 
 ```sh
 # To open report 
