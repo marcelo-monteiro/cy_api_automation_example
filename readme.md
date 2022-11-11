@@ -1,4 +1,4 @@
-# Automated API Tests Suite
+# Automated API Tests Suite with Cypress
 These tests suit runs only in local environment.
 All depencies must be installed locally:
 
